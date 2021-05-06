@@ -37,6 +37,52 @@ body {
   display: none;
 }
 
+.hiddenPaw {
+  opacity: 0;
+}
+
+.shownPaw {
+  animation-name: show;
+  animation-duration: 2300ms;
+  opacity: 1;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .fireworkWraper {
   margin: 0;
   padding: 0;
@@ -186,4 +232,205 @@ body {
 }
 #firework8 .explosion::before {
   animation: explosion 2s 0.3s ease-in-out infinite;
+}
+
+.paw {
+  width: 30px;
+  height: auto;
+  position: absolute;
+}
+
+.paw img {
+  width: 100%;
+}
+
+#paw1 {
+  top: 93%;
+  left: 30%;
+  transform: rotate(300deg) translateY(-15px);
+}
+
+#paw2 {
+  top: 83%;
+  left: 32%;
+  transform: rotate(320deg) translateY(-10px);
+}
+
+#paw3 {
+  top: 77%;
+  left: 27%;
+  transform: rotate(330deg) translateY(-15px);
+}
+
+#paw4 {
+  top: 63%;
+  left: 25%;
+  transform: rotate(360deg) translateY(-15px);
+}
+
+#paw5 {
+  top: 53%;
+  left: 20%;
+  transform: rotate(330deg) translateY(-15px);
+}
+
+#paw6 {
+  top: 43%;
+  left: 23%;
+  transform: rotate(360deg) translateY(-15px);
+}
+
+#paw7 {
+  top: 35%;
+  left: 18%;
+  transform: rotate(330deg) translateY(-15px);
+}
+
+#paw8 {
+  top: 25%;
+  left: 23%;
+  transform: rotate(20deg) translateY(-15px);
+}
+
+#paw9 {
+  top: 18%;
+  left: 18%;
+  transform: rotate(360deg) translateY(-15px);
+}
+
+#paw10 {
+  top: 15%;
+  left: 25%;
+  transform: rotate(30deg) translateY(-15px);
+}
+
+#paw11 {
+  top: 5%;
+  left: 20%;
+  transform: rotate(50deg) translateY(-15px);
+}
+
+#paw12 {
+  top: 7%;
+  left: 30%;
+  transform: rotate(60deg) translateY(-15px);
+}
+
+#paw13 {
+  top: 3%;
+  left: 30%;
+  transform: rotate(60deg) translateY(-15px);
+}
+
+#paw14 {
+  top: 5%;
+  left: 35%;
+  transform: rotate(110deg) translateY(-15px);
+}
+
+#paw15 {
+  top: 3%;
+  left: 42%;
+  transform: rotate(80deg) translateY(-15px);
+}
+
+#paw16 {
+  top: 5%;
+  left: 50%;
+  transform: rotate(115deg) translateY(-15px);
+}
+
+#paw17 {
+  top: 2%;
+  left: 57%;
+  transform: rotate(83deg) translateY(-15px);
+}
+
+#paw18 {
+  top: 7%;
+  left: 73%;
+  transform: rotate(103deg) translateY(-15px);
+}
+
+#paw19 {
+  top: 7%;
+  left: 73%;
+  transform: rotate(103deg) translateY(-15px);
+}
+
+#paw20 {
+  top: 13%;
+  left: 63%;
+  transform: rotate(103deg) translateY(-15px);
+}
+
+#paw21 {
+  top: 20%;
+  left: 75%;
+  transform: rotate(113deg) translateY(-15px);
+}
+
+#paw22 {
+  top: 25%;
+  left: 85%;
+  transform: rotate(130deg) translateY(-15px);
+}
+
+#paw23 {
+  top: 37%;
+  left: 80%;
+  transform: rotate(150deg) translateY(-15px);
+}
+
+#paw24 {
+  top: 45%;
+  left: 90%;
+  transform: rotate(170deg) translateY(-15px);
+}
+
+#paw25 {
+  top: 55%;
+  left: 83%;
+  transform: rotate(190deg) translateY(-15px);
+}
+
+#paw26 {
+  top: 70%;
+  left: 87%;
+  transform: rotate(200deg) translateY(-15px);
+}
+
+#paw27 {
+  top: 85%;
+  left: 85%;
+  transform: rotate(240deg) translateY(-15px);
+}
+
+#paw28 {
+  top: 80%;
+  left: 77%;
+  transform: rotate(240deg) translateY(-15px);
+}
+
+#paw29 {
+  top: 90%;
+  left: 68%;
+  transform: rotate(280deg) translateY(-15px);
+}
+
+#paw30 {
+  top: 83%;
+  left: 57%;
+  transform: rotate(260deg) translateY(-15px);
+}
+
+#paw31 {
+  top: 93%;
+  left: 47%;
+  transform: rotate(260deg) translateY(-15px);
+}
+#paw32 {
+  top: 85%;
+  left: 40%;
+  transform: rotate(260deg) translateY(-15px);
 }
