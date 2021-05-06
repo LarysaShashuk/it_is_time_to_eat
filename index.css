@@ -1,0 +1,14 @@
+.wrapper {
+  width: 500px;
+  height: 500px;
+  background-color: lavender;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid lightslategray;
+}
+
+.text {
+  font-size: 50px;
+  color: black;
+}
